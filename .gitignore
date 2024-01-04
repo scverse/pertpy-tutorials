@@ -142,3 +142,5 @@ dmypy.json
 *.h5md
 *.h5mu
 
+# pertpy cache
+cache

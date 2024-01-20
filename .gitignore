@@ -144,3 +144,5 @@ dmypy.json
 
 # pertpy cache
 cache
+
+node_modules

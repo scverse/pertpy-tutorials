@@ -2,7 +2,7 @@
 [tool.ruff]
 src = ["src"]
 line-length = 120
-select = [
+lint.select = [
     "F",  # Errors detected by Pyflakes
     "E",  # Error detected by Pycodestyle
     "W",  # Warning detected by Pycodestyle
@@ -18,7 +18,7 @@ select = [
     "NPY",  # Numpy specific rules
     "PTH"  # Use pathlib
 ]
-ignore = [
+lint.ignore = [
     # line too long -> we accept long comment lines; black gets rid of long code lines
     "E501",
     # Do not assign a lambda expression, use a def -> lambda expression assignments are convenient

@@ -144,5 +144,6 @@ dmypy.json
 
 # pertpy cache
 cache
-
+data
 node_modules
+lightning_logs

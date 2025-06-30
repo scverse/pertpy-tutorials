@@ -50,7 +50,9 @@ lint.ignore = [
     "N813",
     # module import not at top level of file
     "E402",
-    "B018"
+    "B018",
+    # import should be at top of file
+    "PLC0415"
 ]
 
 [tool.ruff.lint.pydocstyle]

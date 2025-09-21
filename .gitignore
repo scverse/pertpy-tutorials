@@ -139,7 +139,6 @@ dmypy.json
 
 # Datasets
 *.h5ad
-*.h5md
 *.h5mu
 
 # pertpy cache
@@ -147,3 +146,5 @@ cache
 data
 node_modules
 lightning_logs
+
+.vscode
